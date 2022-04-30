@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --principal-height-nav: 12vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: var(--principal-height-nav);
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  display: flex;
+  width: 12vw;
+  height: 10vh;
+  box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
+  border-radius: 1em;
+}
+
+.menu ul {
+  display: flex;
+  width: 70vw;
+  height: var(--principal-height-nav);
+  list-style-type: none;
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 900;
+  justify-content: space-around;
+  color: white;
+}
+
+li {
+  display: flex;
+  width: 15vw;
+  align-items: center;
+  height: var(--principal-height-nav);
+  justify-content: center;
+}
+
+li:hover {
+  display: flex;
+  align-items: center;
+  color: orange;
+  cursor: pointer;
+  width: 15vw;
+  height: var(--principal-height-nav);
+  background-color: gray;
+  justify-content: center;
+}
+
+ul a {
+  display: flex;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* Slider */
+
+.carrousel {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  padding-top: 2em;
+}
+
+.carrousel img {
+  display: flex;
+  width: 30vw;
+  height: 40vh;
+  border-radius: 0.2em;
+}
